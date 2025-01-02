@@ -1,0 +1,79 @@
+
+CORUJÃO
+
+
+> summary(reg)
+
+Call:
+lm(formula = vector_aud ~ vector_img)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-2.3905 -0.5329 -0.0619  0.4382  5.2309 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -12.4749     0.7384  -16.89   <2e-16 ***
+vector_img   31.6760     1.5441   20.52   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.854 on 862 degrees of freedom
+Multiple R-squared:  0.3281,	Adjusted R-squared:  0.3273 
+F-statistic: 420.8 on 1 and 862 DF,  p-value: < 2.2e-16
+
+> cor.test(vector_aud,vector_img)
+
+	Pearson's product-moment correlation
+
+data:  vector_aud and vector_img
+t = 20.515, df = 862, p-value < 2.2e-16
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.5261655 0.6159287
+sample estimates:
+      cor 
+0.5727616 
+
+
+
+
+JARDIM
+
+> summary(reg)
+
+Call:
+lm(formula = vector_aud ~ vector_img)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.5197 -0.7339 -0.0801  0.4074  7.2274 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   -6.274      0.864  -7.261 3.19e-12 ***
+vector_img    18.588      1.855  10.022  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.184 on 306 degrees of freedom
+Multiple R-squared:  0.2471,	Adjusted R-squared:  0.2447 
+F-statistic: 100.4 on 1 and 306 DF,  p-value: < 2.2e-16
+
+> cor.test(vector_aud,vector_img)
+
+	Pearson's product-moment correlation
+
+data:  vector_aud and vector_img
+t = 10.022, df = 306, p-value < 2.2e-16
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.4080286 0.5768296
+sample estimates:
+      cor 
+0.4971181 
+
+
+
+
+

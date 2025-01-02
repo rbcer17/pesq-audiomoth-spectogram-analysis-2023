@@ -1,0 +1,19 @@
+Dados Ponte Jaguatirica
+
+Pearson's product-moment correlation
+
+data:  vector_aud and vector_img
+t = 10.144, df = 935, p-value < 2.2e-16
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.2559891 0.3714253
+sample estimates:
+      cor 
+0.3148712 
+
+
+Residual standard error: 0.3535 on 935 degrees of freedom
+Multiple R-squared:  0.09914,	
+Adjusted R-squared:  0.09818 
+F-statistic: 102.9 on 1 and 935 DF,  
+p-value: < 2.2e-16

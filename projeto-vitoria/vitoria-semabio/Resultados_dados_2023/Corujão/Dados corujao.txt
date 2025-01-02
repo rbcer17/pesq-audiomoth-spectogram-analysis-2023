@@ -1,0 +1,10 @@
+Corujão dados
+
+R-squared:  0.7261,	
+Adjusted R-squared:  0.7258 
+F-statistic:  2667 on 1 and 1006 DF,  
+p-value: < 2.2e-16
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.0534 -0.4347 -0.1080  0.4517  5.4633 
